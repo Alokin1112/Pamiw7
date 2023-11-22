@@ -1,0 +1,26 @@
+# .NET MAUI
+/Pamiw7/bin/
+/Pamiw7/obj/
+/Pamiw7/.vscode/
+/Pamiw7/.vs/
+/Pamiw7/*.user
+/Pamiw7/*.suo
+/Pamiw7/*.userprefs
+/Pamiw7/*.sln.docstates
+/Pamiw7/*.user
+/Pamiw7/*.suo
+/Pamiw7/*.userprefs
+/Pamiw7/*.sln.docstates
+/Pamiw7/.project.user
+/Pamiw7/.nuget/
+/Pamiw7/*.dotSettings
+/Pamiw7/.idea/
+/Pamiw7/*.filelist
+/Pamiw7/*.log
+/Pamiw7/[Tt]est[Rr]esult*/
+/Pamiw7/[Ll]og/
+/Pamiw7/[Ll]ogs/
+/Pamiw7/*.sqlite
+/Pamiw7/*.sqlite-shm
+/Pamiw7/*.sqlite-wal
+/Pamiw7/*.user
