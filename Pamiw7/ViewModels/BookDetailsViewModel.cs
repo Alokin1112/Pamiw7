@@ -86,10 +86,10 @@ namespace Pamiw7.ViewModels
             var newBook = new EditableBook()
             {
                 title = bookDTO.title,
-                author_id=bookDTO.author.id,
+                author_id= bookDTO.author.id,
                 pageCount= bookDTO.pageCount,
-                photoUrl=bookDTO.photoUrl,
-                price=bookDTO.price,
+                photoUrl= bookDTO.photoUrl,
+                price= bookDTO.price,
             };
 
             var result = await _bookService.AddBook(newBook);
@@ -108,11 +108,12 @@ namespace Pamiw7.ViewModels
             var newBook = new EditableBook()
             {
                 title = bookDTO.title,
-                author_id = bookDTO.author.id,
+                author_id =  bookDTO.author.id,
                 pageCount = bookDTO.pageCount,
                 photoUrl = bookDTO.photoUrl,
                 price = bookDTO.price,
             };
+
 
             await _bookService.putBook(newBook,bookDTO.id);
             await BookViewModel.GetBooks();
